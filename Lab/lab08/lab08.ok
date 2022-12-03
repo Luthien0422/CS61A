@@ -1,23 +1,26 @@
 {
-    "name": "Lab 0",
-    "endpoint": "cal/cs61a/fa20/lab00",
+    "name": "Lab 8",
+    "endpoint": "cal/cs61a/sp20/lab08",
     "src": [
-        "lab00.py"
+        "lab08.py"
     ],
     "tests": {
         "lab*.py": "doctest",
         "tests/*.py": "ok_test"
     },
     "default_tests": [
-        "twenty_twenty",
-        "python-basics"
+        "insert",
+        "wwpd-efficiency",
+        "subseqs",
+        "inc_subseqs",
+        "permutations"
     ],
     "protocols": [
         "restore",
         "file_contents",
-        "analytics",
         "unlock",
         "grading",
+        "analytics",
         "backup"
     ]
 }
